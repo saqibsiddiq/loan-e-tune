@@ -7,7 +7,7 @@ export const fetchData = [
     data: {
       ID: "8",
       TRANSACTION_ID: "TRANS00820230803093637",
-      FULL_NAME: "ADLAS NIG LIMITED",
+      FULL_NAME: "MM MITHAIWALA",
       LOAN_AMOUNT: "2000000.00",
       REPAYMENT_DURATION: "12",
       CREATED_TIME: "2023-08-03 10:36:37",
@@ -19,7 +19,7 @@ export const fetchData = [
     data: {
       ID: "7",
       TRANSACTION_ID: generateTransactionId(),
-      FULL_NAME: "CABIN LTD",
+      FULL_NAME: "BAITHAK CAFE",
       LOAN_AMOUNT: uniqueId(),
       REPAYMENT_DURATION: "6",
       CREATED_TIME: "2023-07-12 05:23:37",
@@ -31,7 +31,7 @@ export const fetchData = [
     data: {
       ID: "6",
       TRANSACTION_ID: generateTransactionId(),
-      FULL_NAME: "NIKE GROUP",
+      FULL_NAME: "NATIONAL CADET CORP",
       LOAN_AMOUNT: uniqueId(),
       REPAYMENT_DURATION: "3",
       CREATED_TIME: "2023-08-03 09:36:37",
@@ -43,7 +43,7 @@ export const fetchData = [
     data: {
       ID: "5",
       TRANSACTION_ID: generateTransactionId(),
-      FULL_NAME: "TESLA",
+      FULL_NAME: "SAQIB'S BROTHER",
       LOAN_AMOUNT: uniqueId(),
       REPAYMENT_DURATION: "2",
       CREATED_TIME: "2023-06-23 10:36:37",

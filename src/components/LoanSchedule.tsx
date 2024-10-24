@@ -45,7 +45,7 @@ const LoanSchedule = ({ id }: LoanProps) => {
                 Name: {singleData?.data?.FULL_NAME}
               </h3>
               <h3 className="text-md sm:text-lg font-normal pb-2">
-                Loan Amount: ₦{formatCurrency(singleData?.data?.LOAN_AMOUNT)}
+                Loan Amount: ₹{formatCurrency(singleData?.data?.LOAN_AMOUNT)}
               </h3>
               <h3 className="text-md sm:text-lg font-normal pb-2 prevent-copy">
                 Trans ID:{" "}
@@ -141,19 +141,19 @@ const LoanSchedule = ({ id }: LoanProps) => {
                       {i + 1}
                     </td>
                     <td className="px-6 py-3 whitespace-no-wrap whitespace-nowrap border-1 border-grey-light">
-                      ₦{formatCurrency(val?.EXPECTED_REPAYMENT_AMOUNT)}
+                      ₹{formatCurrency(val?.EXPECTED_REPAYMENT_AMOUNT)}
                     </td>
                     <td className="px-6 py-3 whitespace-no-wrap whitespace-nowrap border-1 border-grey-light text-red-400">
-                      ₦{formatCurrency(val?.INTEREST)}
+                      ₹{formatCurrency(val?.INTEREST)}
                     </td>
                     <td className="px-6 py-3 whitespace-no-wrap whitespace-nowrap border-1 border-grey-light">
-                      ₦{formatCurrency(val?.LOAN_BALANCE)}
+                      ₹{formatCurrency(val?.LOAN_BALANCE)}
                     </td>
                     <td className="px-9 py-3 whitespace-no-wrap whitespace-nowrap border-1 border-grey-light">
                       {val?.MONTH_COUNT}
                     </td>
                     <td className="px-6 py-3 whitespace-no-wrap whitespace-nowrap border-1 border-grey-light">
-                      ₦{formatCurrency(val?.TOTAL_REPAYMENT_AMOUNT)}
+                      ₹{formatCurrency(val?.TOTAL_REPAYMENT_AMOUNT)}
                     </td>
                   </tr>
                 </tbody>

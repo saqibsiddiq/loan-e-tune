@@ -33,7 +33,7 @@ const HeroSection = () => {
               Name: {val.data.FULL_NAME}
             </h1>
             <h2 className="text-gray-900 font-normal text-md sm:text-lg pb-2">
-              Loan Amount: ₦{formatCurrency(val.data.LOAN_AMOUNT)}
+              Loan Amount: ₹{formatCurrency(val.data.LOAN_AMOUNT)}
             </h2>
             <h3 className="text-gray-900 font-normal text-md sm:text-lg pb-2">
               Repayment Duration: {val.data.REPAYMENT_DURATION}
